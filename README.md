@@ -1,8 +1,10 @@
 ## axios-upload
-
 node 中在 axios 基础上上传表单数据
 
-#### example
+### Installation
+npm i axios-upload 
+
+### example
 ```
 const axiosUpload = require('axios-upload');
 
