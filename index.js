@@ -6,7 +6,7 @@ const fs = require('fs');
 const contentType = 'content-type';
 
 const isObject = (obj) => {
-  return typeof obj === "object" && obj !== null;
+  return typeof obj === 'object' && obj !== null;
 }
 
 const API = axios.create();
