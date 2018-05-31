@@ -19,6 +19,7 @@ npm i axios-upload
 const axiosUpload = require('axios-upload');
 
 // 这里直接将 stream 传入即可
+// 文件默认上传最大为100M，若需修改，使用maxContentLength参数，单位byte
 const data = {
   name: 'test',
   filedata: fs.createReadStream('./test.png')
